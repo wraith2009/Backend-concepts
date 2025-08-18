@@ -12,7 +12,7 @@ app.get("/stream", (req: Request, res: Response) => {
 
 let i = 0;
 function send(res: Response) {
-  res.write("data" + `hello from server sent events ----[${i++}\n\n`);
+  res.write("data" + `hello from server sent events ----[${i++}}\n`);
 
   setTimeout(() => send(res), 1000);
 }
