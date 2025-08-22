@@ -16,7 +16,7 @@ const OPC = {
 const WS_GUID = "258EAFA5-E914-47DA-95CA-C5AB0DC85B11";
 
 // function parseFrame(buffer, onFrame){
-
+// will implement this after understanding 
 // }
 
 // HTTP/1.1 server with WS Upgrade
